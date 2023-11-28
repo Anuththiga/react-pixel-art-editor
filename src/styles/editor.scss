@@ -1,0 +1,65 @@
+.editor {
+    border: 1px solid #f05454;
+    border-radius: 0.25rem;
+    margin-top: 2rem;
+    padding: 1rem 4rem 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    h1 {
+        margin-bottom: 1.5rem;
+    }
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+    .options {
+        display: flex;
+        margin-bottom: 3rem;
+        justify-content: center;
+
+        .option {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .panelInput {
+            height: 5rem;
+            width: 5rem;
+            font-size: 2rem;
+            text-align: center;
+            background-color: black;
+            color: white;
+            border: 1px solid #f05454;
+            border-radius: 0.25rem;
+            margin: 0 1rem 0.5rem 1rem;
+            padding-left: 1rem;
+
+            &:focus {
+                outline: none !important;
+                border-color: #f05454;
+                box-shadow: 0 0 0.5rem #f05454;
+            }
+        }
+    }
+
+    .button {
+        padding: 1rem 3rem;
+        text-transform: uppercase;
+        font-size: 1.25rem;
+        background-color: #f05454;
+        color: white;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        margin-bottom: 2rem;
+        transition: background-color 0.2s ease-in-out;
+    
+        &:hover {
+            cursor: pointer;
+            background-color: transparent;
+            border-color: #f05454;
+        }
+    }
+}
