@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "../styles/editor.scss";
 import { CirclePicker } from "react-color";
+import DrawingPanel from './DrawingPanel';
 
 const Editor = () => {
     const [panelWidth, setPanelWidth] = useState(16);
@@ -57,7 +58,13 @@ const Editor = () => {
                 onChangeComplete={changeColor}
             />
             )}
-            
+            {hideOptions && (
+                <DrawingPanel 
+                    panelHeight={panelHeight}
+                    panelWidth={panelWidth}
+                    selectedColor={selectedColor}
+                />
+            )}            
         </div>
     );
 }
