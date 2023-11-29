@@ -1,5 +1,5 @@
 .editor {
-    border: 1px solid #f05454;
+    border: 1px solid #7654f0;
     border-radius: 0.25rem;
     margin-top: 2rem;
     padding: 1rem 4rem 2rem 4rem;
@@ -32,15 +32,15 @@
             text-align: center;
             background-color: black;
             color: white;
-            border: 1px solid #f05454;
+            border: 1px solid #7654f0;
             border-radius: 0.25rem;
             margin: 0 1rem 0.5rem 1rem;
             padding-left: 1rem;
 
             &:focus {
                 outline: none !important;
-                border-color: #f05454;
-                box-shadow: 0 0 0.5rem #f05454;
+                border-color: #7654f0;
+                box-shadow: 0 0 0.5rem #7654f0;
             }
         }
     }
@@ -49,7 +49,7 @@
         padding: 1rem 3rem;
         text-transform: uppercase;
         font-size: 1.25rem;
-        background-color: #f05454;
+        background-color: #7654f0;
         color: white;
         border: 1px solid transparent;
         border-radius: 0.25rem;
@@ -59,7 +59,7 @@
         &:hover {
             cursor: pointer;
             background-color: transparent;
-            border-color: #f05454;
+            border-color: #7654f0;
         }
     }
 }
